@@ -5,7 +5,7 @@
 # GCC 11 is used instead of 12 because genhtml for afl-cov doesn't like it.
 #
 
-FROM ubuntu:22.04 AS aflplusplus
+FROM ubuntu:kinetic AS aflplusplus
 LABEL "maintainer"="afl++ team <afl@aflplus.plus>"
 LABEL "about"="AFLplusplus container image"
 
